@@ -7,11 +7,10 @@
 }
 body {
   font-family: sans-serif;
-  background-color: lightslategray;
 }
 /*Title*/
 h1 {
-  color: white;
+  color: black;
   font-size: 3rem;
   text-align: center;
 }
@@ -30,16 +29,21 @@ h1 {
   vertical-align: middle;
   line-height: 50px;
   background-color: aqua;
+  color: gray;
+  border: 2px solid black;
 }
-/*background-color fizz, buzz, fizzbuzz*/
 
+/*background-color fizz, buzz, fizzbuzz*/
 .fizzbuzz {
   background-color: red;
+  color: yellow;
 }
 
 .buzz {
   background-color: blue;
+  color: fuchsia;
 }
 .fizz {
   background-color: green;
+  color: red;
 }
