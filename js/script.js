@@ -10,7 +10,7 @@ Prima di partire a scrivere codice poniamoci qualche domanda:
 Come faccio a sapere se un numero è divisibile per un altro? Abbiamo visto qualcosa di particolare che possiamo usare? Come creare nuovi elementi html e appenderli al container?
 */
 
-alert('WARNING: Photosensitive Epilepsy');
+alert('WARNING:\nPhotosensitive Epilepsy');
 let i;
 const divContainer = document.querySelector("#container");
 

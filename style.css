@@ -9,18 +9,20 @@ body {
   font-family: sans-serif;
   background-color: lightslategray;
 }
-
+/*Title*/
 h1 {
   color: white;
   font-size: 3rem;
   text-align: center;
 }
+/*container*/
 #container {
   margin: 50px 20px;
-  /* width: 634px; */
   display: flex;
   flex-wrap: wrap;
 }
+
+/*box inside container*/
 .box {
   width: 10%;
   padding: 5px;
@@ -29,6 +31,7 @@ h1 {
   line-height: 50px;
   background-color: aqua;
 }
+/*background-color fizz, buzz, fizzbuzz*/
 
 .fizzbuzz {
   background-color: red;
