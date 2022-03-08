@@ -7,4 +7,36 @@
 }
 body {
   font-family: sans-serif;
+  background-color: lightslategray;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+#container {
+  margin: 50px 20px;
+  /* width: 634px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  width: 10%;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: aqua;
+}
+
+.fizzbuzz {
+  background-color: red;
+}
+
+.buzz {
+  background-color: blue;
+}
+.fizz {
+  background-color: green;
 }
